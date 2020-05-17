@@ -1,0 +1,20 @@
+- one-hot-encoding
+  - transform categorical variable with n features to n columns (0 or 1)
+    - use get_dummies (easier to transform)
+    - use one_hot_encoding (not handy since we need to recreate the data frame but good for saving memories)
+
+- label encoding
+  - transform categorical variable with n features to n columns but, unlike one-hot-encoding, if we have 5 features it transform to 0-4 features
+    - not useful unless using decision tree approach
+  
+- feature hashing
+  - compared to one-hot-encoding, less features to save up memories 
+  
+- target encoding
+  - convert categorical variables to number, essentially converting it to the mean of response variable
+  - we need to do cross validation to prevent data leakage
+  
+- embedding
+  - typical usage for natural language processing where you convert categorical variable to 'vector'
+  - strong advantage over one-hot-encoding that holds strong limitation in the number of features 
+  - ex) Neural Net embedding layes
