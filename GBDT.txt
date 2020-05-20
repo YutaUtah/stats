@@ -1,0 +1,17 @@
+1. Ground Boosting Descision Tree
+  - very useful and universal 
+  - first model to use due to its comuputational capability(speed/accuracy)
+  - Essential way is to give the computer learning opportunities based on the prediction you've set with decision trees and response variable. Ultimately, reduce the error.
+  - prediction is calculated by summing up the weight of the leaves
+  - *decision tree is pararell in random forest but not in ground boosting decision tree. It enhances the accuracy by adding up the prediction of new decision tree*
+  
+  - features should be quantitative
+  - able to deal with missing values
+  - able to reflect mutual interaction between multiple variables
+  
+  - no need to scale features(what matters is whether or not which is bigger not scale)
+  - no need to one-hot-encode(you would need to use label encoding if you are changing qualitative to quantitative variables)
+  
+  - earlier stage created decision tree has bigger influences adnd later stage created decision tree plays a role as adjustment
+  
+  - xgboost module
