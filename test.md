@@ -12,7 +12,7 @@ TN: 真陰性
 
 FN: 偽陰性 
 
-\frac{TP + FN}{TP + FP + FN + TN}
+$\frac{TP + FN}{TP + FP + FN + TN}$
 
 
 
